@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 # Load the dataset
 bike_sharing_df = pd.read_csv('bike_rentals_df.csv')  # Change this to your dataset path
