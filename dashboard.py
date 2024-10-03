@@ -55,7 +55,7 @@ def plot_seasonal_rentals(data):
     return fig, seasonal_rentals.mean()  # Return the figure and average rentals by season
 
 def plot_average_rentals_by_hour(data):
-    """Plot average bike rentals by hour."""
+    """Plot average bike rentals by hour ."""
     byhour_df = data.groupby('hour_group')['cnt'].mean().reset_index()
 
     fig, ax = plt.subplots(figsize=(10, 5))
